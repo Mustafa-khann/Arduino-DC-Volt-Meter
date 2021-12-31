@@ -13,9 +13,9 @@ void loop(){
    val = analogRead(analogInput);//reads the analog input
    Vout = (val * 5.00) / 1024.00; // formula for calculating voltage out i.e. V+, here 5.00
    Vin = Vout / (R2/(R1+R2)); // formula for calculating voltage in i.e. GND
-   if (Vin<0.09)//condition 
+   if (Vin<0.09) //condition 
    {
-     Vin=0.00;//statement to quash undesired reading !
+     Vin=0.00; //statement to quash undesired reading !
   } 
 Serial.print("\t Voltage of the given source = ");
 Serial.print(Vin);
