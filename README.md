@@ -6,9 +6,9 @@ Good project for beginners which uses basic concepts, yet a power full tool.
 While running the code, you can find the output on the serial monitor.
 <br>
 ## Components
-1: Arduino
-2: 1k resistor
-3: 10k resistor
+1: Arduino<br>
+2: 1k resistor<br>
+3: 10k resistor<br>
 4: Breadboard
 <br>
 ## Schematic of the Circuit on BreadBoard
